@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/relative_layout"
+    >
+
+    <!-- Во время игры параметр translationY опускает препядствие вниз экрана -->
+
+    <ImageView
+        android:id="@+id/obstacle_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/obstacle_0" />
+
+    <ImageView
+        android:id="@+id/obstacle_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/obstacle_0"/>
+
+    <ImageView
+        android:id="@+id/obstacle_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/obstacle_0" />
+
+    <ImageView
+        android:id="@+id/obstacle_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/obstacle_0"/>
+
+    <ImageView
+        android:id="@+id/obstacle_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/obstacle_1" />
+
+    <ImageView
+        android:id="@+id/obstacle_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/obstacle_1" />
+
+
+</RelativeLayout>
